@@ -193,3 +193,66 @@ footer {
   }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  header nav a {
+    padding-left: 2.41rem;
+    padding-right: 2.41rem;
+  }
+
+  .best-sale .img-flex {
+    position: relative;
+  }
+
+  .body h2 {
+    display: block;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 1rem;
+
+    position: absolute;
+    right: 25%;
+    bottom: -34%;
+  }
+
+  .products img {
+    display: inline-block;
+  }
+
+  figcaption {
+    display: inline-block;
+    float: right;
+    width: 45%;
+    margin-top: 3.5rem;
+  }
+
+  .product-1 figcaption {
+    margin-top: 2.5rem;
+  }
+
+  .about img {
+    width: 25%;
+  }
+
+  .about p {
+    background-color: #c2c2c2;
+    border: 5px solid #000;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
