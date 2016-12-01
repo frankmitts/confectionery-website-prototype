@@ -249,10 +249,44 @@ footer {
     padding: 1rem;
   }
 
+  .about {
+    margin-right: 1rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
+  header nav a {
+    padding: 1rem;
+    padding-left: 4.35rem;
+    padding-right: 4.35rem;
+  }
+
+  .body h2 {
+    position: absolute;
+    right: 32%;
+    bottom: -25%;
+  }
+
+  .products img {
+    margin-left: 25%;
+  }
+
+  figcaption {
+    display: block;
+    float: none;
+    margin-left: 25%;
+    margin-top: 0;
+  }
+
+  .product-1  figcaption {
+    margin-top: 0;
+  }
 
 }
