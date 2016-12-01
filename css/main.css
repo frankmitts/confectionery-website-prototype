@@ -1,0 +1,181 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  font: normal 100%/1.3 "Raleway", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #e2e2e2;
+}
+
+header .logo {
+  display: inline-block;
+  width: 30%;
+  margin-left: 35%;
+  padding-top: 1.3rem;
+}
+
+header h1 {
+  display: block;
+  font-family: 'Courgette', cursive;
+  margin: 0;
+  padding:1rem;
+  padding-top: .5rem;
+  text-align: center;
+  background-color: #e2e2e2;
+}
+
+header nav {
+  display: block;
+  margin: 0;
+}
+
+header nav ul {
+  margin: 0;
+  background-color: #c2c2c2;
+  padding: 0;
+  border-bottom: #222 solid 3px;
+}
+
+header nav li {
+  display: inline-block;
+  list-style-type: none;
+  background-color: #c2c2c2;
+}
+
+header nav a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+  background-color: #c2c2c2;
+  padding: .5rem;
+  padding-left: .575rem;
+  padding-right: .575rem;
+}
+
+header nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.best-sale .img-flex {
+  display: block;
+  width: 100%;
+}
+
+.body h2 {
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  background-color: #b70202;
+  color: #f2f2f2;
+}
+
+.link-card {
+  text-decoration: none;
+  color: #000;
+}
+
+.sec-product {
+  background-color: #999;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+.products img {
+  display: inline-block;
+  width: 50%;
+}
+
+.products h3 a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #000;
+}
+
+.products h3 a:hover {
+  color: #f2f2f2;
+}
+
+.products h3 {
+  display: inline-block;
+    margin-bottom: .1rem;
+    margin-top: .3rem;
+    font-size: 1.3rem;
+}
+
+.products figcaption p {
+  display:inline-block;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+figure {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.about img {
+  display: inline-block;
+  width: 40%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.about p {
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn  {
+  text-decoration: none;
+  color: #000;
+  padding: 0;
+}
+
+.btn span {
+  background-color: #e2e2e2;
+  padding: 1rem .75rem;
+  margin-left: 55%;
+  border: 2px;
+  border-radius: 5px;
+  font-family: 'Courgette', cursive;
+}
+
+.btn span:hover {
+  background-color: #333;
+  color: #fff;
+}
+footer {
+  display:block;
+  background-color: #666;
+  color: #f2f2f2;
+
+  padding-left: 1rem;
+  padding-top: .125rem;
+  padding-bottom: .125rem;
+
+  margin-top: 2rem;
+  font-size: .75rem;
+}
