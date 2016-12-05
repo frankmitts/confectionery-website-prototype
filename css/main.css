@@ -87,6 +87,7 @@ header nav a:hover {
 .best-sale .img-flex {
   display: block;
   width: 100%;
+  max-height: 345px;
 }
 
 .body h2 {
@@ -105,53 +106,56 @@ header nav a:hover {
   text-decoration: none;
 }
 
-.sec-product {
+.products {
   background-color: #999;
 
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .products img {
-  display: inline-block;
-  width: 50%;
+  display: block;
+  max-width: 50%;
 
   margin-left: 25%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
 }
 
-.products h3 a {
-  color: #000;
+.product-body {
+  margin: 0;
 
-  text-decoration: none;
-  list-style-type: none;
+  margin-right: 1rem;
+}
+
+.product-body > h3 {
   text-align: center;
+
+  margin: 0;
+  margin-top: .5rem;
 }
 
-.products h3 a:hover {
-  color: #b70202;
+.product-body > p {
+  text-align: left;
+
+  margin: 0;
+  margin-top: .5rem;
+  margin-left: 15%;
 }
 
-.products h3 {
-  display: inline-block;
 
-  margin-bottom: .1rem;
-  margin-top: .3rem;
-  margin-left: 10%;
-
+.product-body a {
+  text-decoration: none;
+  color: #000;
   font-family: Courgette, cursive;
   font-size: 1.3rem;
 }
 
-.product-2 h3 {
-  margin-left: 20%;
+.product-body a:hover {
+  color: #fff;
 }
 
-.products figcaption p {
-  display: inline-block;
-
-  margin-top: 0;
-  margin-bottom: 2rem;
-  margin-left: 10%;
 }
 
 figure {
@@ -161,36 +165,34 @@ figure {
 
 .about img {
   display: inline-block;
-  width: 40%;
+  width: 30%;
 
   margin-left: 1rem;
   margin-top: 1rem;
 }
 
 .about p {
-  margin: 1rem 1rem 2rem 1rem;
+  margin: 1rem 1rem 2rem;
 }
 
 .btn {
-  color: #000;
-
-  text-decoration: none;
-
-  padding: 0;
+  margin-bottom: 2rem;
 }
 
-.btn span {
+.btn a {
   background-color: #e2e2e2;
+  color: #000;
   border: 2px;
   border-radius: 5px;
 
   font-family: Courgette, cursive;
+  text-decoration: none;
 
   padding: 1rem .75rem;
   margin-left: 55%;
 }
 
-.btn span:hover {
+.btn a:hover {
   background-color: #333;
   color: #fff;
 }
@@ -203,9 +205,14 @@ footer {
   font-size: .75rem;
 
   padding-left: 1rem;
+  padding-bottom: .5rem;
+  margin-top: 1rem;
+}
+
+footer p {
+  margin: 0;
   padding-top: .125rem;
   padding-bottom: .125rem;
-  margin-top: 2rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -218,6 +225,10 @@ footer {
   header nav a {
     padding-left: 1.21rem;
     padding-right: 1.21rem;
+  }
+
+  .products h3 {
+    margin-left: 5%;
   }
 
 }
@@ -234,13 +245,13 @@ footer {
     padding-right: 2.41rem;
   }
 
-  .best-sale .img-flex {
+  .link-card .best-sale .img-flex {
     position: relative;
   }
 
   .body h2 {
     display: block;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .5);
     color: #fff;
     border-radius: 10px;
     max-width: 600px;
@@ -249,23 +260,11 @@ footer {
 
     position: absolute;
     right: 25%;
-    bottom: -34%;
+    bottom: -13%;
   }
 
   .products img {
     display: inline-block;
-  }
-
-  figcaption {
-    display: inline-block;
-    float: right;
-    width: 45%;
-
-    margin-top: 3.5rem;
-  }
-
-  .product-1 figcaption {
-    margin-top: 2.5rem;
   }
 
   .about img {
@@ -293,6 +292,7 @@ footer {
     line-height: 1.5;
   }
 
+
   header nav a {
     padding: 1rem;
     padding-left: 4.35rem;
@@ -302,23 +302,45 @@ footer {
   .body h2 {
     position: absolute;
     right: 32%;
-    bottom: -25%;
+    bottom: -38%;
   }
 
   .products img {
     margin-left: 25%;
   }
 
-  figcaption {
-    display: block;
-    float: none;
+.products {
+  padding-bottom: 27rem;
+}
 
-    margin-left: 25%;
-    margin-top: 0;
+.product-1,
+.product-2,
+.product-3 {
+  display: inline-block;
+  float: left;
+  width: 33.3333%;
+
+  border: 4px solid #000;
+  border-radius: 10px;
+  min-height: 475px;
+}
+
+.product h3,
+.product p {
+  text-align: left;
+}
+
+  .about img {
+    width: 15%;
   }
 
-  .product-1  figcaption {
-    margin-top: 0;
+  .about p {
+    float: right;
+    max-width: 700px;
   }
+
+  .btn a {
+    display: inline-block;
+    margin-left: 75%;
 
 }
