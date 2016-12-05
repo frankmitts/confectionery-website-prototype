@@ -41,46 +41,47 @@ header h1 {
   font-family: Courgette, cursive;
   text-align: center;
 
-  margin: 0;
-  padding: 1rem;
-  padding-top: .5rem;
 }
 
-header nav {
-  display: block;
+.nav-bar {
+  box-sizing: content-box;
 
   margin: 0;
+  padding-left: 0;
 }
 
-header nav ul {
-  background-color: #c2c2c2;
-  border-bottom: #222 solid 3px;
+.nav-bar ul {
+  text-align: center;
+  background-color: #555;
 
   margin: 0;
   padding: 0;
-
+  padding-top: 1rem;
 }
 
-header nav li {
+.nav-bar li {
   display: inline-block;
+
+  margin-bottom: 1rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
   list-style-type: none;
-  background-color: #c2c2c2;
-}
+  max-width: 24%;
 
-header nav a {
-  display: inline-block;
+border: 2px ;
+border-radius: 4px;
+
   background-color: #c2c2c2;
   color: #000;
 
-  text-decoration: none;
-  font-weight: 500;
+  padding: .5rem;
 
-  padding: .5rem .575rem;
 }
 
-header nav a:hover {
-  display: inline-block;
-  background-color: #333;
+ .nav-bar a:hover {
+  background-color: #b70202;
   color: #fff;
 }
 
@@ -219,11 +220,6 @@ footer p {
     line-height: 1.3;
   }
 
-  header nav a {
-    padding-left: 1.21rem;
-    padding-right: 1.21rem;
-  }
-
   .products h3 {
     margin-left: 5%;
   }
@@ -237,10 +233,13 @@ footer p {
     line-height: 1.4;
   }
 
-  header nav a {
-    padding-left: 2.41rem;
-    padding-right: 2.41rem;
-  }
+.nav-bar li {
+  margin-left: 1rem;
+}
+
+.nav-bar a {
+  padding: .5rem 1rem;
+}
 
   .link-card .best-sale .img-flex {
     position: relative;
@@ -289,10 +288,13 @@ footer p {
     line-height: 1.5;
   }
 
-  header nav a {
-    padding: 1rem;
-    padding-left: 4.35rem;
-    padding-right: 4.35rem;
+  .nav-bar li {
+    margin-left: 2rem;
+  }
+
+  .nav-bar a {
+    padding: .75rem 1.5rem;
+    font-size: 1.3rem;
   }
 
   .body h2 {
@@ -316,9 +318,6 @@ footer p {
     float: left;
     width: 33.3333%;
 
-    border: 4px solid #000;
-    border-radius: 10px;
-    min-height: 475px;
   }
 
   .product h3,
