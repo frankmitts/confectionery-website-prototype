@@ -144,7 +144,6 @@ header nav a:hover {
   margin-left: 15%;
 }
 
-
 .product-body a {
   text-decoration: none;
   color: #000;
@@ -154,8 +153,6 @@ header nav a:hover {
 
 .product-body a:hover {
   color: #fff;
-}
-
 }
 
 figure {
@@ -292,7 +289,6 @@ footer p {
     line-height: 1.5;
   }
 
-
   header nav a {
     padding: 1rem;
     padding-left: 4.35rem;
@@ -309,26 +305,26 @@ footer p {
     margin-left: 25%;
   }
 
-.products {
-  padding-bottom: 27rem;
-}
+  .products {
+    padding-bottom: 27rem;
+  }
 
-.product-1,
-.product-2,
-.product-3 {
-  display: inline-block;
-  float: left;
-  width: 33.3333%;
+  .product-1,
+  .product-2,
+  .product-3 {
+    display: inline-block;
+    float: left;
+    width: 33.3333%;
 
-  border: 4px solid #000;
-  border-radius: 10px;
-  min-height: 475px;
-}
+    border: 4px solid #000;
+    border-radius: 10px;
+    min-height: 475px;
+  }
 
-.product h3,
-.product p {
-  text-align: left;
-}
+  .product h3,
+  .product p {
+    text-align: left;
+  }
 
   .about img {
     width: 15%;
@@ -342,5 +338,14 @@ footer p {
   .btn a {
     display: inline-block;
     margin-left: 75%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.6;
+  }
 
 }
