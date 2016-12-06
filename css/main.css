@@ -68,9 +68,10 @@ header h1 {
 .nav-bar a {
   text-decoration: none;
   list-style-type: none;
+  font-weight: bold;
   max-width: 24%;
 
-  border: 2px ;
+  border: 2px;
   border-radius: 4px;
 
   color: #000;
@@ -79,7 +80,7 @@ header h1 {
 
 }
 
- .nav-bar a:hover {
+.nav-bar a:hover {
   background-color: #b70202;
   color: #fff;
 }
@@ -88,6 +89,7 @@ header h1 {
   display: block;
   width: 100%;
   max-height: 345px;
+  border-bottom: 7px solid #000;
 }
 
 .body h2 {
@@ -107,8 +109,6 @@ header h1 {
 }
 
 .products {
-  background-color: #999;
-
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
@@ -121,6 +121,13 @@ header h1 {
   margin-top: 2rem;
   margin-bottom: 1rem;
 
+}
+
+.product-1,
+.product-2,
+.product-3 {
+  border-bottom: 1px solid #333;
+  margin: auto 1rem;
 }
 
 .product-body {
@@ -142,6 +149,7 @@ header h1 {
   margin: 0 auto;
   margin-top: .5rem;
   margin-left: 15%;
+  padding-bottom: 1rem;
 }
 
 .product-body a {
@@ -202,6 +210,8 @@ figure {
 
   margin-left: 43%;
   margin-top: .5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .contact {
@@ -226,7 +236,26 @@ figure {
   margin: 0;
 }
 
-.contact a {
+.contact .body ul {
+  text-align: center;
+
+  padding: 0;
+  padding-bottom: 2rem;
+  margin: auto 2rem;
+
+  border-top: 1px solid #f2f2f2;
+
+}
+
+.contact .body li {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  padding: .25rem .5rem;
+}
+
+.contact .body a {
+  display: inline-block;
   text-decoration: none;
   color: #f2f2f2;
   font-size: 1rem;
@@ -278,13 +307,13 @@ footer p {
     line-height: 1.4;
   }
 
-.nav-bar li {
-  margin-left: 1rem;
-}
+  .nav-bar li {
+    margin-left: 1rem;
+  }
 
-.nav-bar a {
-  padding: .5rem 1rem;
-}
+  .nav-bar a {
+    padding: .5rem 1rem;
+  }
 
   .link-card .best-sale .img-flex {
     position: relative;
@@ -326,7 +355,6 @@ footer p {
     display: inline-block;
     float: left;
     width: 65%;
-
 
     margin: 0 auto;
     margin-bottom: 1rem;
@@ -375,12 +403,17 @@ footer p {
     display: inline-block;
     float: left;
     width: 33.3333%;
-
+    border-bottom: none;
+    margin: auto;
   }
 
   .product h3,
   .product p {
     text-align: left;
+  }
+
+  .about-page {
+    margin: 6rem 3rem 6rem 1rem;
   }
 
   .about img {
