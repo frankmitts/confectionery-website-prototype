@@ -46,15 +46,15 @@ header h1 {
 .nav-bar {
   box-sizing: content-box;
 
-  margin: 0;
+  margin: 0 auto;
   padding-left: 0;
 }
 
 .nav-bar ul {
   text-align: center;
-  background-color: #555;
+  background-color: #d1d1d1;
 
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   padding-top: 1rem;
 }
@@ -70,10 +70,9 @@ header h1 {
   list-style-type: none;
   max-width: 24%;
 
-border: 2px ;
-border-radius: 4px;
+  border: 2px ;
+  border-radius: 4px;
 
-  background-color: #c2c2c2;
   color: #000;
 
   padding: .5rem;
@@ -97,7 +96,7 @@ border-radius: 4px;
 
   text-align: center;
 
-  margin: 0;
+  margin: 0 auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -125,7 +124,7 @@ border-radius: 4px;
 }
 
 .product-body {
-  margin: 0;
+  margin: 0 auto;
 
   margin-right: 1rem;
 }
@@ -133,14 +132,14 @@ border-radius: 4px;
 .product-body > h3 {
   text-align: center;
 
-  margin: 0;
+  margin: 0 auto;
   margin-top: .5rem;
 }
 
 .product-body > p {
   text-align: left;
 
-  margin: 0;
+  margin: 0 auto;
   margin-top: .5rem;
   margin-left: 15%;
 }
@@ -170,6 +169,7 @@ figure {
 }
 
 .about p {
+  display: inline-block;
   margin: 1rem 1rem 2rem;
 }
 
@@ -187,7 +187,7 @@ figure {
   text-decoration: none;
 
   padding: 1rem .75rem;
-  margin-left: 55%;
+  margin-left: 5%;
 }
 
 .btn a:hover {
@@ -195,22 +195,67 @@ figure {
   color: #fff;
 }
 
+.logo-footer {
+  display: inline-block;
+
+  width: 15%;
+
+  margin-left: 43%;
+  margin-top: .5rem;
+}
+
+.contact {
+  background-color: #666;
+}
+
+.contact .body {
+  text-align: center;
+}
+
+.contact p {
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.contact-us {
+  font-family: Courgette, cursive;
+  font-size: 1rem;
+  color: #f2f2f2;
+
+  padding: 0;
+  margin: 0;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: 1rem;
+}
+
+.contact a:hover {
+  color: #b70202;
+}
+
 footer {
   display: block;
-  background-color: #666;
+  background-color: #333;
   color: #f2f2f2;
 
   font-size: .75rem;
 
   padding-left: 1rem;
   padding-bottom: .5rem;
-  margin-top: 1rem;
+
 }
 
 footer p {
-  margin: 0;
-  padding-top: .125rem;
-  padding-bottom: .125rem;
+  display: block;
+  text-align: center;
+
+  margin: 0 auto;
+  margin-bottom: .5rem;
+  padding-top: 1rem;
+
 }
 
 @media only screen and (min-width: 25em) {
@@ -243,6 +288,7 @@ footer p {
 
   .link-card .best-sale .img-flex {
     position: relative;
+    width: 100%;
   }
 
   .body h2 {
@@ -256,27 +302,39 @@ footer p {
 
     position: absolute;
     right: 25%;
-    bottom: -13%;
+    bottom: 13%;
   }
 
   .products img {
     display: inline-block;
   }
 
+  .about-page {
+    background-color: #c2c2c2;
+    border: 3px solid #000;
+    border-radius: 10px;
+
+    margin: .5rem;
+  }
+
   .about img {
+    float: left;
     width: 25%;
   }
 
   .about p {
-    background-color: #c2c2c2;
-    border: 5px solid #000;
-    border-radius: 10px;
+    display: inline-block;
+    float: left;
+    width: 65%;
 
+
+    margin: 0 auto;
+    margin-bottom: 1rem;
     padding: 1rem;
   }
 
-  .about {
-    margin-right: 1rem;
+  .btn a {
+    margin-left: 31%;
   }
 
 }
@@ -300,7 +358,7 @@ footer p {
   .body h2 {
     position: absolute;
     right: 32%;
-    bottom: -38%;
+    bottom: -25%;
   }
 
   .products img {
@@ -326,17 +384,18 @@ footer p {
   }
 
   .about img {
+    float: left;
     width: 15%;
   }
 
   .about p {
-    float: right;
+    float: left;
     max-width: 700px;
   }
 
   .btn a {
     display: inline-block;
-    margin-left: 75%;
+    margin-left: 19%;
   }
 }
 
