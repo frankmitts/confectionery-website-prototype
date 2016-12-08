@@ -67,7 +67,7 @@ header h1 {
 .nav-bar a {
   text-decoration: none;
   list-style-type: none;
-  font-weight: 400;
+  font-weight: normal;
   max-width: 24%;
 
   border: 2px;
@@ -176,7 +176,7 @@ figure {
 }
 
 .about p {
-  display: inline-block;
+  display: block;
   margin: 1rem 1rem 2rem;
 }
 
@@ -203,7 +203,7 @@ figure {
 }
 
 .logo-footer {
-  display: inline-block;
+  display: block;
 
   width: 15%;
 
@@ -238,7 +238,6 @@ figure {
 .contact .body ul {
   text-align: center;
   border-top: 1px solid #f2f2f2;
-
 
   padding: 0;
   padding-bottom: 2rem;
@@ -318,7 +317,7 @@ footer p {
     padding: .5rem 1rem;
   }
 
-  .best-sale .img-flex {
+  .best-sale {
     position: relative;
   }
 
@@ -333,7 +332,7 @@ footer p {
     position: absolute;
     width: 52%;
     right: 9rem;
-    bottom: -10rem;
+    bottom: 1rem;
 
   }
 
@@ -345,7 +344,8 @@ footer p {
     background-color: #c2c2c2;
     border: 3px solid #000;
     border-radius: 10px;
-    margin: 6rem 3rem 6rem 1rem;
+
+    margin: 6rem 3rem 6rem 2rem;
   }
 
   .about img {
@@ -356,7 +356,7 @@ footer p {
   }
 
   .about p {
-    display: inline-block;
+    display: block;
     float: left;
     width: 65%;
 
@@ -387,12 +387,12 @@ footer p {
     font-size: 1.3rem;
   }
 
-.link-card-content {
-  position: absolute;
-  width: 100%;
-  right: 4rem;
-  bottom: 10rem;
-}
+  .link-card-content {
+    position: absolute;
+    width: 100%;
+    right: 4rem;
+    bottom: 2rem;
+  }
 
   .products img {
     margin-left: 25%;
@@ -468,10 +468,10 @@ footer p {
     margin-right: 16rem;
   }
 
-  .best-sale .img-flex {
+  .best-sale {
     display: block;
     width: 100%;
-    max-height: 450px;
+    max-height: 500px;
     border-bottom: 7px solid #000;
   }
 
@@ -486,7 +486,7 @@ footer p {
     position: absolute;
     width: 100%;
     right: -4rem;
-    bottom: 0;
+    bottom: 2rem;
   }
 
   .product-1,
@@ -500,6 +500,11 @@ footer p {
     background-color: #c2c2c2;
   }
 
+  .btn a {
+    display: inline-block;
+    margin-left: 20%;
+  }
+
 }
 
 @media only screen and (min-width: 95em) {
@@ -509,29 +514,75 @@ footer p {
     line-height: 1.7;
   }
 
+  .about-page {
+    background-color: #c2c2c2;
+    border: 3px solid #000;
+    border-radius: 10px;
+    margin: 6rem 3rem 6rem 1rem;
+  }
 
-    .about-page {
-      background-color: #c2c2c2;
-      border: 3px solid #000;
-      border-radius: 10px;
-      margin: 6rem 3rem 6rem 1rem;
-    }
+  .about img {
+    float: left;
+    width: 15%;
 
-    .about img {
-      float: left;
-      width: 20%;
+    margin-right: 1.5rem;
+  }
 
-      margin-right: 1.5rem;
-    }
+  .about p {
+    display: inline-block;
+    float: left;
+    width: 65%;
 
-    .about p {
-      display: inline-block;
-      float: left;
-      width: 65%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
 
-      margin: 0 auto;
-      margin-bottom: 1rem;
-      padding: 1rem;
-    }
+  .btn a {
+    display: inline-block;
+    margin-left: 22%;
+  }
+
+}
+
+@media only screen and (min-width: 130em) {
+
+  html {
+    font-size: 150%;
+    line-height: 1.8;
+  }
+
+  header .logo {
+    margin-left: 25rem;
+  }
+
+  header h1 {
+    margin-right: 20rem;
+    margin-top: 5rem;
+  }
+
+  .about img {
+    width: 15%;
+  }
+
+  .about p {
+    display: inline-block;
+    float: left;
+    width: 65%;
+
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+
+  .about-page {
+    margin-left: 5rem;
+    margin-right: 25rem;
+  }
+
+  .btn a {
+    display: inline-block;
+    margin-left: 22%;
+  }
 
 }
