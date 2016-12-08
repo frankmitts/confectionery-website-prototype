@@ -79,6 +79,26 @@ header h1 {
 
 }
 
+.product-body a {
+  text-decoration: none;
+  color: #000;
+  font-family: Courgette, cursive;
+  font-size: 1.3rem;
+}
+
+.btn a {
+  background-color: #e2e2e2;
+  color: #000;
+  border: 2px;
+  border-radius: 5px;
+
+  font-family: Courgette, cursive;
+  text-decoration: none;
+
+  padding: 1rem .75rem;
+  margin-left: 5%;
+}
+
 .nav-bar a:hover {
   background-color: #b70202;
   color: #fff;
@@ -142,6 +162,16 @@ header h1 {
   margin-top: .5rem;
 }
 
+footer p {
+  display: block;
+  text-align: center;
+
+  margin: 0 auto;
+  margin-bottom: .5rem;
+  padding-top: 1rem;
+
+}
+
 .product-body > p {
   text-align: left;
 
@@ -149,13 +179,6 @@ header h1 {
   margin-top: .5rem;
   margin-left: 15%;
   padding-bottom: 1rem;
-}
-
-.product-body a {
-  text-decoration: none;
-  color: #000;
-  font-family: Courgette, cursive;
-  font-size: 1.3rem;
 }
 
 .product-body a:hover {
@@ -182,19 +205,6 @@ figure {
 
 .btn {
   margin-bottom: 2rem;
-}
-
-.btn a {
-  background-color: #e2e2e2;
-  color: #000;
-  border: 2px;
-  border-radius: 5px;
-
-  font-family: Courgette, cursive;
-  text-decoration: none;
-
-  padding: 1rem .75rem;
-  margin-left: 5%;
 }
 
 .btn a:hover {
@@ -272,16 +282,6 @@ footer {
 
   padding-left: 1rem;
   padding-bottom: .5rem;
-
-}
-
-footer p {
-  display: block;
-  text-align: center;
-
-  margin: 0 auto;
-  margin-bottom: .5rem;
-  padding-top: 1rem;
 
 }
 
