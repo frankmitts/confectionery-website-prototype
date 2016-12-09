@@ -36,10 +36,14 @@ header .logo {
 
 header h1 {
   display: block;
+  color: #000;
 
   font-family: Courgette, cursive;
   text-align: center;
+}
 
+header a {
+  text-decoration: none;
 }
 
 .nav-bar {
@@ -62,6 +66,20 @@ header h1 {
   display: inline-block;
 
   margin-bottom: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #c2c2c2;
+  background-color: #666;
+  border-radius: 3px;
+
+  padding: .5rem 1rem;
+  margin-bottom: .5rem;
+
+  position: absolute;
+  top: .5rem;
+
 }
 
 .nav-bar a {
@@ -277,12 +295,12 @@ footer {
   display: block;
   background-color: #333;
   color: #f2f2f2;
+  position: relative;
 
   font-size: .75rem;
 
   padding-left: 1rem;
   padding-bottom: .5rem;
-
 }
 
 @media only screen and (min-width: 25em) {
@@ -462,10 +480,11 @@ footer {
     display: inline-block;
     font-size: 3rem;
     float: right;
-    z-index: 1000;
+    border-left: 1px solid #666;
 
     margin-top: 4rem;
-    margin-right: 16rem;
+    margin-right: 13rem;
+    padding-left: 2rem;
   }
 
   .best-sale {
@@ -507,11 +526,15 @@ footer {
 
 }
 
-@media only screen and (min-width: 95em) {
+@media only screen and (min-width: 94em) {
 
   html {
     font-size: 140%;
     line-height: 1.7;
+  }
+
+  header h1 {
+    margin-right: 5rem;
   }
 
   .about-page {
@@ -519,6 +542,7 @@ footer {
     border: 3px solid #000;
     border-radius: 10px;
     margin: 6rem 3rem 6rem 1rem;
+    overflow: hidden;
   }
 
   .about img {
