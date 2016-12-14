@@ -126,7 +126,6 @@ footer a {
   display: block;
   width: 100%;
   max-height: 345px;
-  border-bottom: 7px solid #000;
 }
 
 .link-card-content h2 {
@@ -206,6 +205,10 @@ footer p {
 figure {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.about {
+  overflow: hidden;
 }
 
 .about img {
@@ -470,28 +473,28 @@ footer {
   }
 
   header .logo {
-    display: inline-block;
+    display: block;
     width: 15%;
+    float: left;
 
-    margin: auto 2rem 1rem 15rem;
+    margin-left: 25%;
+    margin-top: 1rem;
+    padding: 0;
   }
 
   header h1 {
-    display: inline-block;
+    display: block;
     font-size: 3rem;
-    float: right;
     border-left: 1px solid #666;
 
-    margin-top: 4rem;
-    margin-right: 13rem;
-    padding-left: 2rem;
+    padding: 4rem 0;
+    margin: 0;
   }
 
   .best-sale {
     display: block;
     width: 100%;
     max-height: 500px;
-    border-bottom: 7px solid #000;
   }
 
   .link-card-content h2 {
@@ -512,11 +515,27 @@ footer {
   .product-2,
   .product-3 {
     height: 28rem;
+    width: 32.3333%;
   }
 
   .product-1,
   .product-3 {
     background-color: #c2c2c2;
+  }
+
+  .product-1 {
+    margin-left: 1rem;
+  }
+
+  .product-3 {
+    margin-right: 1rem;
+  }
+
+  .product-1:hover,
+  .product-2:hover,
+  .product-3:hover {
+    background-color: #666;
+    color: #f2f2f2;
   }
 
   .btn a {
@@ -526,7 +545,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 94em) {
+@media only screen and (min-width: 102em) {
 
   html {
     font-size: 140%;
@@ -534,15 +553,17 @@ footer {
   }
 
   header h1 {
-    margin-right: 5rem;
+    padding: 5rem 0;
   }
 
   .about-page {
     background-color: #c2c2c2;
     border: 3px solid #000;
     border-radius: 10px;
-    margin: 6rem 3rem 6rem 1rem;
     overflow: hidden;
+    max-width: 50%;
+
+    margin: 6rem 3rem 6rem 17rem;
   }
 
   .about img {
