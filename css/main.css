@@ -597,13 +597,17 @@ footer {
     line-height: 1.8;
   }
 
+  img-flex {
+    height: 250px;
+  }
+
   header .logo {
     margin-left: 25rem;
   }
 
   header h1 {
     margin-right: 20rem;
-    margin-top: 5rem;
+    padding-top: 5rem;
   }
 
   .about img {
