@@ -527,6 +527,11 @@ footer {
     color: #d3c3ac;
   }
 
+  .product-1 p,
+  .product-3 p {
+    color: #d3c3ac;
+  }
+
   .product-1,
   .product-3 {
     background-color: #5d332d;
