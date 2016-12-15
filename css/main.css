@@ -325,13 +325,13 @@ footer {
     width: 25%;
   }
 
-.btn {
-  padding-bottom: 2rem;
-}
+  .btn {
+    padding-bottom: 2rem;
+  }
 
-.btn a {
-  border: 1px solid #d3c3ac;
-}
+  .btn a {
+    border: 1px solid #d3c3ac;
+  }
 
 }
 
