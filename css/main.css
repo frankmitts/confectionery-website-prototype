@@ -325,6 +325,14 @@ footer {
     width: 25%;
   }
 
+.btn {
+  padding-bottom: 2rem;
+}
+
+.btn a {
+  border: 1px solid #d3c3ac;
+}
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -391,7 +399,8 @@ footer {
   }
 
   .btn a {
-    margin-left: 31%;
+    margin-left: 32%;
+    border: 1px solid #d3c3ac;
   }
 
 }
@@ -451,6 +460,7 @@ footer {
 
   .about-page {
     margin: 6rem 3rem 6rem 1rem;
+    background-color: #5d332d;
   }
 
   .about img {
@@ -465,8 +475,10 @@ footer {
 
   .btn a {
     display: inline-block;
-    margin-left: 23%;
+    margin-left: 22%;
+    border: 1px solid #d3c3ac;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -525,6 +537,7 @@ footer {
   .btn a {
     display: inline-block;
     margin-left: 20%;
+    border: 1px solid #d3c3ac;
   }
 
   .product-1 h3 a,
@@ -572,7 +585,7 @@ footer {
   }
 
   .about-page {
-    background-color: #c2c2c2;
+    background-color: #5d332d;
     border: 3px solid #000;
     border-radius: 10px;
     overflow: hidden;
@@ -601,6 +614,7 @@ footer {
   .btn a {
     display: inline-block;
     margin-left: 22%;
+    border: 1px solid #d3c3ac;
   }
 
 }
@@ -640,6 +654,7 @@ footer {
   }
 
   .about-page {
+    background-color: #5d332d;
     margin-left: 5rem;
     margin-right: 25rem;
   }
@@ -647,6 +662,7 @@ footer {
   .btn a {
     display: inline-block;
     margin-left: 22%;
+    border: 1px solid #d3c3ac;
   }
 
 }
